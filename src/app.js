@@ -21,7 +21,7 @@ async function startServer (port) {
 }
 
 function normalizePort (port) {
-  const fallback = 5432;
+  const fallback = 80;
   try {
     const normalizedPort = parseInt(port);
     if (isNaN(normalizedPort)) {
